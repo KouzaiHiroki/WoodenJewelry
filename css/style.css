@@ -28,3 +28,24 @@ a {
     margin: 0 auto;
     padding: 0 18px;
   }
+
+  .sitetitle {
+    width: 110px;
+    line-height: 1px;
+    margin-right: 50px;
+  }
+
+  .sitetitle a {
+    display: block;
+  }
+
+  .sectiontitle {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 4px;
+  }
+
+  .section-title-en {
+    display: inline-block;
+    margin-bottom: 25px;
+  }
