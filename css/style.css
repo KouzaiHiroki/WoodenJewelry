@@ -27,30 +27,38 @@ a {
     max-width: 1400px;
     height: 1910px;
     margin: 0 auto;
-  }
+}
 
-  .sitetitle {
+.sitetitle {
     width: 110px;
     line-height: 1px;
     margin-right: 50px;
-  }
+}
 
-  .sitetitle a {
+.sitetitle a {
     display: block;
-  }
+}
 
-  .sectiontitle {
+.sectiontitle {
     font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: 4px;
-  }
+}
 
-  .sectiontitleen {
+.sectiontitleen {
     display: inline-block;
     margin-bottom: 25px;
-  }
+}
 
-  .topphoto {
+.topphoto {
     width: 90%;
-    margin: 60px 32px auto auto;
-  }
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+.topmenu {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 62px auto auto;
+}
