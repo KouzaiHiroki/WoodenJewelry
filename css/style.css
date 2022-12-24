@@ -24,9 +24,9 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1400px;
+    height: 1910px;
     margin: 0 auto;
-    padding: 0 18px;
   }
 
   .sitetitle {
@@ -48,4 +48,10 @@ a {
   .sectiontitleen {
     display: inline-block;
     margin-bottom: 25px;
+  }
+
+  .topphoto {
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 32px;
   }
