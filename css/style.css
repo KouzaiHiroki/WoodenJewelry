@@ -52,8 +52,7 @@ a {
 
 .topphoto {
     width: 90%;
-    margin-top: 60px;
-    margin-bottom: 32px;
+    margin: 60px 32px auto auto;
 }
 
 .topmenu {
@@ -70,4 +69,8 @@ a {
 .topmenu ul li {
     font-size: 0.875rem;
     margin-right: 30px;
+}
+
+.topmenu ul li:last-child {
+    margin-right: 0;
 }
