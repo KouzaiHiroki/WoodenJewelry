@@ -101,3 +101,44 @@ footer {
 .footerlogo {
     width: 110px;
 }
+
+@media screen and (max-width: 767px) {
+    .sectiontitle {
+        font-size: 1.25rem;
+    }
+
+    .topphoto {
+        width: 100%;
+        margin: 0;
+    }
+
+    .topphoto img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .topmenu {
+        width: 100%;
+        padding: 20px 18px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    #work {
+        flex-direction: column-reverse;
+    }
+
+    .content img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contenttext {
+        width: 100%;
+        padding: 0;
+    }
+    
+}
