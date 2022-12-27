@@ -81,3 +81,11 @@ a {
     align-items: center;
     margin-bottom: 60px;
   }
+
+.contentphoto {
+    width: 50%;
+}
+
+.contenttext {
+    width: 50%;
+}
