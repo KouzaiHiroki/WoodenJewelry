@@ -63,7 +63,7 @@ a {
     margin: 0 62px auto auto;
 }
 
-.topmenu nl {
+.topmenu ul {
     display: flex;
 }
 
@@ -75,3 +75,9 @@ a {
 .topmenu ul li:last-child {
     margin-right: 0;
 }
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
