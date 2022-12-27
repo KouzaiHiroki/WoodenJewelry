@@ -24,9 +24,9 @@ a {
 }
 
 .container {
-    max-width: 1400px;
-    height: 1910px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 18px;
 }
 
 .sitetitle {
@@ -51,16 +51,16 @@ a {
 }
 
 .topphoto {
-    width: 90%;
-    margin: 60px 32px auto auto;
-    align-items: center;
+    width: 90vw;
+    margin: 4% auto 0 auto;
 }
 
 .topmenu {
-    width: 90%;
+    width: 90vw;
     display: flex;
     align-items: center;
-    margin: 0 62px auto auto;
+    padding: 32px 0;
+    margin: 0 auto 30px auto;
 }
 
 .topmenu ul {
@@ -88,4 +88,5 @@ a {
 
 .contenttext {
     width: 50%;
+    padding: 0 7%;
 }
